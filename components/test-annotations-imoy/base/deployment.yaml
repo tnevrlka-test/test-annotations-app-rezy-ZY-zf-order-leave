@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-imoy
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-ewob-tenant/test-annotations-app-rezy/test-annotations-imoy@sha256:599ab41315a74948314b5b649bda29a575b55d99e9366ddcab1d66b021227e2c
         name: my-nginx
         ports:
         - containerPort: 8080
