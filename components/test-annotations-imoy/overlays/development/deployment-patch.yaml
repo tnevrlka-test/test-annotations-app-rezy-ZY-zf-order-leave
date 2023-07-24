@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-imoy
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-ewob-tenant/test-annotations-app-rezy/test-annotations-imoy@sha256:599ab41315a74948314b5b649bda29a575b55d99e9366ddcab1d66b021227e2c
+        name: my-nginx
+        resources: {}
+status: {}
